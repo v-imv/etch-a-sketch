@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid-container {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridBox {
+    border: 1px solid rgb(70, 70, 70);
+    height: 31.25px;
+    width: 31.25px;
+}
+
+.color-added {
+    background-color: plum;
+}
