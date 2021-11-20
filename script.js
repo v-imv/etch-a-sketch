@@ -19,12 +19,8 @@ let desiredSize = (16*16);
 for(i=0; i < desiredSize; ++i){
     const div = document.createElement('div');
     div.setAttribute('class', 'gridBox');
+    div.addEventListener('mouseover', () => {
+        div.classList.add('add-color');
+    })
     gridContainer.appendChild(div);
 }
-
-function colorChange(){
-    document.querySelector('div.gridBox')
-    div.setAttribute('class', 'color-added')
-}
-
-addEventListener
