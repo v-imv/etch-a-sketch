@@ -16,12 +16,6 @@
     flex-wrap: wrap;
 }
 
-.gridBox {
-    border: 1px solid rgb(70, 70, 70);
-    height: 31.25px;
-    width: 31.25px;
-}
-
 .add-color {
     background-color: plum;
 }
