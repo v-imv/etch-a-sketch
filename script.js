@@ -2,13 +2,13 @@ const gridContainer = document.querySelector("#grid-container");
 
 
 let userInput;
-do {
-userInput = prompt("Enter A Number Between 1-100");
+function gridInput() { do {
+userInput = prompt("Enter A Number Between 1-100 To Create A Drawing Grid");
 }  while (!(userInput > 0 && userInput < 101));
 if (userInput > 0 && userInput < 101) {
     gridCreate();
 }
-console.log(userInput);
+}
 
 function gridCreate(){
 for(let i=0; i < userInput; ++i){
@@ -27,3 +27,12 @@ for(let i=0; i < userInput; ++i){
 
 }
 }
+
+const button = document.getElementById('button');
+button.addEventListener('click', () => {
+    while (gridContainer.hasChildNodes()){
+        let find = gridContainer.firstElementChild;
+        find.remove();
+    }
+    gridInput();
+})
