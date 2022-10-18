@@ -5,7 +5,7 @@ This is a HTML, CSS and JavaScript recreation of the iconic etch a sketch toy wh
 I undertook this project to practice using the DOM at a higher level than in my rock paper scissors project.
 
 ## How To Access & Use
-You can see how this project looks and functions by clicking on "github-pages" under the heading "Environments".
+You can see how this project looks and functions by visiting this [link](https://v-imv.github.io/etch-a-sketch/) or by clicking on the page link under the "About" section on the right hand side of the screen.
 
 Once you open the page you will see a square in which you will be able to draw.
 
